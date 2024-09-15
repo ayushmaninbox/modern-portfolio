@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bento Grid</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <div class="grid-container">
-            <div class="grid-item large">1</div>
+            <div class="grid-item large" id="grid-item-1">
+                1
+                <div class="wave-container">
+                    <div class="wave"></div>
+                    <div class="wave"></div>
+                    <div class="wave"></div>
+                </div>
+            </div>
             <div class="grid-item medium">2</div>
             <div class="grid-item medium">3</div>
             <div class="grid-item small">4</div>
@@ -18,6 +25,12 @@
             <div class="grid-item medium">7</div>
             <div class="grid-item small">8</div>
             <div class="grid-item small">9</div>
+        </div>
+    </div>
+
+    <div class="fullscreen-overlay" id="fullscreen-overlay">
+        <div class="fullscreen-content" id="fullscreen-content">
+            <button class="cut-button" id="cut-button">×</button>
         </div>
     </div>
 
