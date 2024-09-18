@@ -4,27 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="dark-theme">
     <div class="container">
         <div class="grid-container">
-            <div class="grid-item large" id="grid-item-1">
-                1
-                <div class="wave-container">
-                    <div class="wave"></div>
-                    <div class="wave"></div>
-                    <div class="wave"></div>
+            <div class="grid-item large" id="grid-item-1">1</div>
+            <div class="grid-item medium" id="grid-item-2">2</div>
+            <div class="grid-item medium" id="grid-item-3">3</div>
+            <div class="grid-item small" id="grid-item-4">4</div>
+            <div class="grid-item small" id="grid-item-5">5</div>
+            <div class="grid-item wide" id="grid-item-6">6</div>
+            <div class="grid-item small-wide" id="grid-item-7">
+                <div class="phone">
+                    <div class="content">
+                        <div class="circle-container">
+                            <div class="circle">
+                                <div class="crescent"></div>
+                            </div>
+                        </div>
+                        <div class="switch-container">
+                            <label class="switch">
+                                <input type="checkbox" id="themeToggle" checked>
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="grid-item medium">2</div>
-            <div class="grid-item medium">3</div>
-            <div class="grid-item small">4</div>
-            <div class="grid-item small">5</div>
-            <div class="grid-item wide">6</div>
-            <div class="grid-item medium">7</div>
-            <div class="grid-item small">8</div>
-            <div class="grid-item small">9</div>
+            <div class="grid-item small" id="grid-item-8">8</div>
+            <div class="grid-item small" id="grid-item-9">9</div>
+            <div class="grid-item small-wide" id="grid-item-10">
+                <button class="btn-small">
+                    <div class="btn-small-content">
+                        <svg class="download-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                        <p class="btn-small-text">Download CV</p>
+                    </div>
+                </button>
+            </div>
         </div>
     </div>
 
@@ -34,6 +56,6 @@
         </div>
     </div>
 
-    <script src="app.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
