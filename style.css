@@ -523,3 +523,32 @@ body:not(.dark-theme) .dark {
 body, .circle, .crescent, .grid-item, .fullscreen-overlay, .fullscreen-content, .btn-small {
     transition: all 0.3s ease;
 }
+
+.btn-small.square {
+    border-radius: 12px;
+}
+
+.social-icon {
+    width: 32px;
+    height: 32px;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    stroke: var(--btn-text-color);
+}
+
+.btn-small:hover .social-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.footer {
+    position: fixed;
+    bottom: -15px;
+    left: 0;
+    width: 100%;
+    color: var(--text-color);
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    z-index: 10;
+}
+
