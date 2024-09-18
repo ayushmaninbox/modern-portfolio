@@ -1,7 +1,7 @@
 document.querySelectorAll('.grid-item').forEach(item => {
     item.addEventListener('click', function(event) {
-        const noFullScreenItems = [4, 5, 7, 8, 9];
-        const itemIndex = Array.from(document.querySelectorAll('.grid-item')).indexOf(this) + 1;
+        const noFullScreenItems = [4, 5, 7, 8, 9, 10];
+        const itemIndex = parseInt(this.id.split('-')[2]);
 
         if (noFullScreenItems.includes(itemIndex)) {
             return;
@@ -19,7 +19,7 @@ document.querySelectorAll('.grid-item').forEach(item => {
         } else {
             overlay.classList.remove('top', 'bottom');
             
-            const rect = item.getBoundingClientRect();
+            const rect = this.getBoundingClientRect();
             const topDistance = rect.top;
             const bottomDistance = window.innerHeight - rect.bottom;
 
@@ -48,3 +48,29 @@ document.addEventListener('click', function(event) {
         }, 300);
     }
 });
+
+// Add functionality to the "Download CV" button
+document.querySelector('#grid-item-10 .btn-small').addEventListener('click', function(event) {
+    event.stopPropagation(); // Prevent the grid item click event from firing
+    // Open the PDF in a new tab
+    window.open('./assets/ayushman-mohapatra-resume.pdf', '_blank');
+});
+
+// Theme toggle functionality
+const themeToggle = document.getElementById('themeToggle');
+const body = document.body;
+
+themeToggle.addEventListener('change', function() {
+    if (this.checked) {
+        body.classList.add('dark-theme');
+    } else {
+        body.classList.remove('dark-theme');
+    }
+});
+
+// Set initial theme based on checkbox state
+if (themeToggle.checked) {
+    body.classList.add('dark-theme');
+} else {
+    body.classList.remove('dark-theme');
+}
