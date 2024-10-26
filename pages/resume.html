@@ -1,272 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ayushman Mohapatra - Resume</title>
+    <link
+      rel="shortcut icon"
+      href="../assets/images/logo.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ayushman Mohapatra - Resume</title>
-  <link rel="shortcut icon" href="../assets/images/logo.ico" type="image/x-icon">
-  <link rel="stylesheet" href="../assets/css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
+  <body>
+    <main>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="../assets/images/my-avatar.png"
+              alt="Ayushman Mohapatra"
+              width="80"
+            />
+          </figure>
 
-<body>
+          <div class="info-content">
+            <h1 class="name" title="Ayushman Mohapatra">Ayushman Mohapatra</h1>
+            <p class="title">Web developer</p>
+          </div>
 
-  <main>
-
-    <aside class="sidebar" data-sidebar>
-      <div class="sidebar-info">
-        <figure class="avatar-box">
-          <img src="../assets/images/my-avatar.png" alt="Ayushman Mohapatra" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Ayushman Mohapatra">Ayushman Mohapatra</h1>
-          <p class="title">Web developer</p>
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+                <a
+                  href="mailto:ayushmanmohapatra895@gmail.com"
+                  class="contact-link"
+                  >ayushmanmohapatra895@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+                <a href="tel:+916372860186" class="contact-link"
+                  >+91 6372860186</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+                <time datetime="2005-09-08">September 08, 2005</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+                <address>Vellore, Tamil Nadu, India</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/ayushman-mohapatra/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://github.com/ayushmaninbox" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/theayushmanguy/"
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <div class="main-content">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="../index.html" class="navbar-link">About</a>
+            </li>
+            <li class="navbar-item">
+              <a href="./resume.html" class="navbar-link active">Resume</a>
+            </li>
+            <li class="navbar-item">
+              <a href="./portfolio.html" class="navbar-link">Portfolio</a>
+            </li>
+            <li class="navbar-item">
+              <a href="./contact.html" class="navbar-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <article class="resume active" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  B.Tech in Computer Science
+                </h4>
+                <span>2023 — 2027</span>
+                <p class="timeline-text">
+                  Vellore Institute of Technology, Vellore, India
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Minor in Artificial Intelligence
+                </h4>
+                <span>2024 — 2025</span>
+                <p class="timeline-text">
+                  Indian Institute of Technology, Ropar, India
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Full Stack Web Developer</h4>
+                <span>Sep 2024</span>
+                <p class="timeline-text">GDSC Hackathon, Vellore, IN</p>
+                <ul>
+                  <li class="timeline-text">
+                    • Developed and maintained user-facing webpages using HTML,
+                    CSS, JavaScript.
+                  </li>
+                  <li class="timeline-text">
+                    • Tested cross-browser compatibility of web applications in
+                    multiple browsers and operating systems.
+                  </li>
+                  <li class="timeline-text">
+                    • Integrated third-party APIs into existing applications to
+                    extend functionality.
+                  </li>
+                  <li class="timeline-text">
+                    • Lead a cross-functional team of engineers to develop
+                    highly scalable web applications using modern technologies
+                    such as Java, ReactJS, NodeJS.
+                  </li>
+                </ul>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Front End Developer</h4>
+                <span>Sep 2023 — Oct 2023</span>
+                <p class="timeline-text">Flixdin, Vellore, IN</p>
+                <ul>
+                  <li class="timeline-text">
+                    • Developed web applications using HTML, CSS and JavaScript.
+                  </li>
+                  <li class="timeline-text">
+                    • Integrated front end code with server side code to
+                    implement dynamic pages.
+                  </li>
+                  <li class="timeline-text">
+                    • Designed and implemented interactive user interfaces for
+                    websites and applications.
+                  </li>
+                  <li class="timeline-text">
+                    • Maintained website content by updating text, images,
+                    videos.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Version control</h5>
+                  <data value="90">90%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Front-End Development (HTML5, CSS3, JS)</h5>
+                  <data value="75">75%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 75%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">
+                    Back-End and Database Skills (NodeJS, ExpressJS)
+                  </h5>
+                  <data value="47">47%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 47%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Object-Oriented Programming</h5>
+                  <data value="60">60%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">API Design and Development</h5>
+                  <data value="55">55%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 55%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Graphic Designing</h5>
+                  <data value="90">90%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
       </div>
+    </main>
 
-      <div class="sidebar-info_more">
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-          <li class="contact-item">
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-              <a href="mailto:ayushmanmohapatra895@gmail.com" class="contact-link">ayushmanmohapatra895@gmail.com</a>
-            </div>
-          </li>
-
-          <li class="contact-item">
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-              <a href="tel:+916372860186" class="contact-link">+91 6372860186</a>
-            </div>
-          </li>
-
-          <li class="contact-item">
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-              <time datetime="2005-09-08">September 08, 2005</time>
-            </div>
-          </li>
-
-          <li class="contact-item">
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-              <address>Vellore, Tamil Nadu, India</address>
-            </div>
-          </li>
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/ayushman-mohapatra/" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://github.com/ayushmaninbox" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.instagram.com/theayushmanguy/" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </aside>
-
-    <div class="main-content">
-      <nav class="navbar">
-        <ul class="navbar-list">
-          <li class="navbar-item">
-            <a href="../index.html" class="navbar-link">About</a>
-          </li>
-          <li class="navbar-item">
-            <a href="./resume.html" class="navbar-link active">Resume</a>
-          </li>
-          <li class="navbar-item">
-            <a href="./portfolio.html" class="navbar-link">Portfolio</a>
-          </li>
-          <li class="navbar-item">
-            <a href="./contact.html" class="navbar-link">Contact</a>
-          </li>
-        </ul>
-      </nav>
-
-      <article class="resume active" data-page="resume">
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">B.Tech in Computer Science</h4>
-              <span>2023 — 2027</span>
-              <p class="timeline-text">
-                Vellore Institute of Technology, Vellore, India
-              </p>
-            </li>
-
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Minor in Artificial Intelligence</h4>
-              <span>2024 — 2025</span>
-              <p class="timeline-text">
-                Indian Institute of Technology, Ropar, India
-              </p>
-            </li>
-          </ol>
-        </section>
-
-        <section class="timeline">
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Full Stack Web Developer</h4>
-              <span>Sep 2024</span>
-              <p class="timeline-text">
-                GDSC Hackathon, Vellore, IN
-              </p>
-              <ul>
-                <li class="timeline-text">• Developed and maintained user-facing webpages using HTML, CSS, JavaScript.</li>
-                <li class="timeline-text">• Tested cross-browser compatibility of web applications in multiple browsers and operating systems.</li>
-                <li class="timeline-text">• Integrated third-party APIs into existing applications to extend functionality.</li>
-                <li class="timeline-text">• Lead a cross-functional team of engineers to develop highly scalable web applications using modern technologies such as Java, ReactJS, NodeJS.</li>
-              </ul>
-            </li>
-
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Front End Developer</h4>
-              <span>Sep 2023 — Oct 2023</span>
-              <p class="timeline-text">
-                Flixdin, Vellore, IN
-              </p>
-              <ul>
-                <li class="timeline-text">• Developed web applications using HTML, CSS and JavaScript.</li>
-                <li class="timeline-text">• Integrated front end code with server side code to implement dynamic pages.</li>
-                <li class="timeline-text">• Designed and implemented interactive user interfaces for websites and applications.</li>
-                <li class="timeline-text">• Maintained website content by updating text, images, videos.</li>
-              </ul>
-            </li>
-          </ol>
-        </section>
-
-        <section class="skill">
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-  <li class="skills-item">
-    <div class="title-wrapper">
-      <h5 class="h5">Version control</h5>
-      <data value="90">90%</data>
-    </div>
-    <div class="skill-progress-bg">
-      <div class="skill-progress-fill" style="width: 90%;"></div>
-    </div>
-  </li>
-
-  <li class="skills-item">
-    <div class="title-wrapper">
-      <h5 class="h5">Front-End Development (HTML5, CSS3, JS)</h5>
-      <data value="75">75%</data>
-    </div>
-    <div class="skill-progress-bg">
-      <div class="skill-progress-fill" style="width: 75%;"></div>
-    </div>
-  </li>
-
-  <li class="skills-item">
-    <div class="title-wrapper">
-      <h5 class="h5">Back-End and Database Skills (NodeJS, ExpressJS)</h5>
-      <data value="47">47%</data>
-    </div>
-    <div class="skill-progress-bg">
-      <div class="skill-progress-fill" style="width: 47%;"></div>
-    </div>
-  </li>
-
-  <li class="skills-item">
-    <div class="title-wrapper">
-      <h5 class="h5">Object-Oriented Programming</h5>
-      <data value="60">60%</data>
-    </div>
-    <div class="skill-progress-bg">
-      <div class="skill-progress-fill" style="width: 60%;"></div>
-    </div>
-  </li>
-
-  <li class="skills-item">
-    <div class="title-wrapper">
-      <h5 class="h5">API Design and Development</h5>
-      <data value="55">55%</data>
-    </div>
-    <div class="skill-progress-bg">
-      <div class="skill-progress-fill" style="width: 55%;"></div>
-    </div>
-  </li>
-
-  <li class="skills-item">
-    <div class="title-wrapper">
-      <h5 class="h5">Graphic Designing</h5>
-      <data value="90">90%</data>
-    </div>
-    <div class="skill-progress-bg">
-      <div class="skill-progress-fill" style="width: 90%;"></div>
-    </div>
-  </li>
-</ul>
-        </section>
-      </article>
-    </div>
-  </main>
-
-  <script src="../assets/js/script.js"></script>
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
+    <script src="../assets/js/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
