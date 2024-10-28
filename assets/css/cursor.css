@@ -12,6 +12,7 @@
     pointer-events: none;
     z-index: 9999;
     opacity: 0.7;
+    display: none;
 }
 
 .trail {
@@ -25,6 +26,7 @@
     pointer-events: none;
     animation: trail 0.5s ease-out forwards;
     transform: translate(-50%, -50%);
+    display: none;
 }
 
 @keyframes trail {
@@ -35,5 +37,11 @@
     100% {
         opacity: 0;
         transform: translate(-50%, -50%) scale(0);
+    }
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .cursor, .trail {
+        display: block;
     }
 }
