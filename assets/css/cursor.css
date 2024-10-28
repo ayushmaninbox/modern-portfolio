@@ -40,8 +40,17 @@
     }
 }
 
-@media (hover: hover) and (pointer: fine) {
+body.has-custom-cursor .cursor,
+body.has-custom-cursor .trail {
+    display: block;
+}
+
+@media (hover: none) and (pointer: coarse) {
+    * {
+        cursor: auto;
+    }
+
     .cursor, .trail {
-        display: block;
+        display: none !important;
     }
 }
