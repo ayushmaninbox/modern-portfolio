@@ -8,7 +8,7 @@ A modern, responsive personal portfolio website built with HTML, CSS, and JavaSc
 - 📱 Fully responsive layout for all devices
 - 🌙 Dark theme with elegant color scheme
 - 🖱️ Custom cursor effects
-- 📑 Multiple pages including About, Resume, Portfolio, and Contact
+- 📑 Multiple pages including About, Resume, Projects, and Contact
 - 📊 Skills progress visualization
 - 🎯 Project filtering system
 - 📝 Contact form integration
@@ -28,7 +28,7 @@ A modern, responsive personal portfolio website built with HTML, CSS, and JavaSc
 
 1. **About** - Professional introduction and services overview
 2. **Resume** - Education, experience, and skills
-3. **Portfolio** - Showcase of projects with filtering capability
+3. **Projects** - Showcase of projects with filtering capability
 4. **Contact** - Contact form and location information
 
 ## Getting Started
@@ -60,7 +60,7 @@ modern-portfolio/
 │   └── images/
 ├── pages/
 │   ├── resume.html
-│   ├── portfolio.html
+│   ├── projects.html
 │   └── contact.html
 └── index.html
 ```
